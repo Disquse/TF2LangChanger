@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.web.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="264" prefWidth="352" styleClass="">
+  <children>
+    <Panel backgroundColor="#131313" borderColor="#ffffff" borderRadius="0" borderStyle="NONE" borderWidth="0" focusTraversable="false" id="HeaderPanel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="56" prefWidth="352" styleClass="">
+      <children>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="HeaderPanelTitle" layoutX="16" layoutY="8" prefHeight="40" prefWidth="232" styleClass="label " text="TF2 LANG CHANGER" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Verdana Bold" size="19"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-HeaderPanelTitle" visible="1"/>
+        <FlatButton alignment="CENTER" color="#131313" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#101010" id="HeaderHelpButton" layoutX="264" layoutY="8" prefHeight="40" prefWidth="40" styleClass="x-flat-button " text="?" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Verdana Bold" size="18"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-HeaderHelpButton" tooltipText="Help" visible="1"/>
+      </children>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-HeaderPanel" visible="1"/>
+    <FlatButton alignment="CENTER" color="#131313" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#101010" id="HeaderExitButton" layoutX="304" layoutY="8" prefHeight="40" prefWidth="40" styleClass="x-flat-button " text="X" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Verdana Bold" size="18"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-HeaderExitButton" tooltipText="Close" visible="1"/>
+    <Panel backgroundColor="#ffffff00" borderColor="#131313" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="56" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="209" prefWidth="352" styleClass="">
+      <children>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" id="TF2DirectoryLabel" layoutX="16" layoutY="6" prefHeight="24" prefWidth="232" styleClass="label " text="TF2 Directory:" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Verdana" size="16"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-TF2DirectoryLabel" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="TF2DirectoryEdit" layoutX="16" layoutY="32" prefColumnCount="12" prefHeight="32" prefWidth="240" promptText="...\SteamApps\common\Team Fortress 2" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="10"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-TF2DirectoryEdit" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-TF2DirectoryBrowse" tooltipText="Browse" visible="1"/>
+        <FlatButton alignment="CENTER" color="#131313" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#101010" id="TF2DirectoryBrowse" layoutX="264" layoutY="32" prefHeight="35" prefWidth="35" styleClass="x-flat-button " text="..." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Verdana" size="14"/>
+          </font>
+        </FlatButton>
+        <FlatButton alignment="CENTER" color="#131313" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#101010" id="TF2DirectoryApply" layoutX="304" layoutY="32" prefHeight="35" prefWidth="35" styleClass="x-flat-button " text="OK" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Verdana" size="14"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-TF2DirectoryApply" tooltipText="Apply" visible="1"/>
+        <Panel backgroundColor="#131313" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="FunctionsPanel" layoutX="0" layoutY="88" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" opacity="0.5" prefHeight="119" prefWidth="350" styleClass="">
+          <children>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" id="FunctionsLabel" layoutX="16" layoutY="7" prefHeight="24" prefWidth="232" styleClass="label " text="Switch langs:" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="Verdana" size="16"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-FunctionsLabel" visible="1"/>
+            <FlatButton alignment="CENTER" color="#131313" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#101010" id="FunctionsApplyButton" layoutX="8" layoutY="72" prefHeight="35" prefWidth="336" styleClass="x-flat-button " text="Apply / Update" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="Verdana" size="16"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-FunctionsApplyButton" tooltipText="Browse" visible="1"/>
+            <ComboBox editable="false" focusTraversable="true" id="FunctionsSwitchingLang" layoutX="216" layoutY="40" prefHeight="25" prefWidth="120" promptText="Other language" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
+              <items xmlns:fx="http://javafx.com/fxml">
+                <FXCollections fx:factory="observableArrayList"/>
+              </items>
+            </ComboBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-FunctionsSwitchingLang" visible="1"/>
+            <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" id="FunctionsToLabel" layoutX="152" layoutY="40" prefHeight="24" prefWidth="48" styleClass="label " text="&lt;—&gt;" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="Verdana" size="16"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-FunctionsToLabel" visible="1"/>
+            <ComboBox editable="false" focusTraversable="true" id="FunctionsYourLang" layoutX="16" layoutY="40" prefHeight="25" prefWidth="120" promptText="Your language" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
+              <items xmlns:fx="http://javafx.com/fxml">
+                <FXCollections fx:factory="observableArrayList"/>
+              </items>
+            </ComboBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-FunctionsYourLang" visible="1"/>
+          </children>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="" id="data-FunctionsPanel" visible="1"/>
+      </children>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Panel backgroundColor="#990000" borderColor="#ffffff" borderRadius="0" borderStyle="NONE" borderWidth="0" focusTraversable="false" id="ExitPanel" layoutX="0" layoutY="280" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="56" prefWidth="352" styleClass="">
+      <children>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="ExitPanelTitle" layoutX="16" layoutY="8" prefHeight="40" prefWidth="208" styleClass="label " text="You sure?" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Verdana Bold" size="19"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-ExitPanelTitle" visible="1"/>
+        <FlatButton alignment="CENTER" color="#990000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#840000" id="ExitYesButton" layoutX="288" layoutY="8" prefHeight="40" prefWidth="56" styleClass="x-flat-button " text="YES" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Verdana Bold" size="14"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-ExitYesButton" tooltipText="Yes, close" visible="1"/>
+        <FlatButton alignment="CENTER" color="#990000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#840000" id="ExitNoButton" layoutX="232" layoutY="8" prefHeight="40" prefWidth="56" styleClass="x-flat-button " text="NO" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Verdana Bold" size="14"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-ExitNoButton" tooltipText="No, stay in" visible="1"/>
+      </children>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-ExitPanel" visible="1"/>
+  </children>
+</AnchorPane>

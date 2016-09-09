@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="HeaderExitButton">
+    <behaviour radius="5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="HeaderHelpButton">
+    <behaviour radius="5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="TF2DirectoryLabel">
+    <behaviour animated="1" opacity="0.79756097560976" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="TF2DirectoryBrowse">
+    <behaviour radius="5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="TF2DirectoryApply">
+    <behaviour radius="5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="FunctionsLabel">
+    <behaviour animated="1" opacity="0.79756097560976" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="HeaderPanelTitle">
+    <behaviour animated="1" opacity="0.79756097560976" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="ExitPanelTitle">
+    <behaviour animated="1" opacity="0.79756097560976" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="ExitNoButton">
+    <behaviour radius="5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="ExitYesButton">
+    <behaviour radius="5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="FunctionsApplyButton">
+    <behaviour radius="5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="CLICK"/>
+  </target>
+  <target id="FunctionsToLabel">
+    <behaviour animated="1" opacity="0.79756097560976" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+</behaviours>
